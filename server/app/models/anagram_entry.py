@@ -3,7 +3,7 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 from database.session import Base
 from datetime import datetime
 
-class AnagramEntries(Base):
+class AnagramEntry(Base):
     __tablename__ = "anagram_entrie"
 
     id: Mapped[int] = mapped_column(primary_key=True, index=True)
