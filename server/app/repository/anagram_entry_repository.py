@@ -17,3 +17,7 @@ def create(db: Session, word: str, sorted_key_id: int) -> AnagramEntry:
     db.commit()
     db.refresh(entry)
     return entry
+
+#continue the queries for this repository, the key and the user ones
+#implement the services and the routes for all of them
+#also need the frontend (ugly but meh)
